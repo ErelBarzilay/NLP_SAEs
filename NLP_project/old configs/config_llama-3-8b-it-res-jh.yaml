@@ -1,0 +1,9 @@
+path:
+- data.csv
+sae_id:
+- blocks.25.hook_resid_post
+
+model:
+- release: llama-3-8b-it-res-jh
+  index: v4_pileval_llama
+  model_name: "meta-llama/Meta-Llama-3-8B-Instruct"

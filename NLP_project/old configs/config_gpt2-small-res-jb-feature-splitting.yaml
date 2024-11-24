@@ -1,0 +1,16 @@
+path:
+- data.csv
+sae_id:
+- blocks.8.hook_resid_pre_768
+- blocks.8.hook_resid_pre_1536
+- blocks.8.hook_resid_pre_3072
+- blocks.8.hook_resid_pre_6144
+- blocks.8.hook_resid_pre_12288
+- blocks.8.hook_resid_pre_24576
+- blocks.8.hook_resid_pre_49152
+- blocks.8.hook_resid_pre_98304
+
+model:
+- release: gpt2-small-res-jb-feature-splitting
+  index: v4_pileval_gpt2
+  model_name: gpt2-small

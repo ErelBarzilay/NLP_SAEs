@@ -1,0 +1,1 @@
+python source/get_sae_repr_and_loss.py --run_config "configs/run_config_gemma.yaml" 

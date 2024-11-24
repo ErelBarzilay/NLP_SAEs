@@ -1,0 +1,13 @@
+releases:
+  - gpt2-small-resid-post-v5-32k
+  - gpt2-small-resid-post-v5-128k
+
+  - mistral-7b-res-wg
+  - llama-3-8b-it-res-jh
+
+  - pythia-70m-deduped-res-sm
+  - pythia-70m-deduped-att-sm
+  - pythia-70m-deduped-mlp-sm
+  
+  - gpt2-small-attn-out-v5-32k
+  - gpt2-small-attn-out-v5-128k

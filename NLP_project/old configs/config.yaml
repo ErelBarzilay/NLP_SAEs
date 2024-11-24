@@ -1,0 +1,13 @@
+path: 
+  - data.csv
+sae_id: 
+  - blocks.0.hook_resid_pre
+  # - another_id
+
+model:
+  - release: gpt2-small-res-jb
+    index: v4_pileval_gpt2
+    model_name: gpt2-small
+  # - release: some_release
+  #   index: some_index
+  #   model_name: some_model_name

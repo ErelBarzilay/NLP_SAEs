@@ -1,0 +1,3 @@
+slurmstepd: error: *** JOB 78490 ON s-004 CANCELLED AT 2024-11-03T12:00:34 ***
+slurmstepd: error: *** JOB 78490 STEPD TERMINATED ON s-004 AT 2024-11-03T12:03:34 DUE TO JOB NOT ENDING WITH SIGNALS ***
+slurmstepd: error: Container 3884777 in cgroup plugin has 1 processes, giving up after 191 sec

@@ -1,0 +1,36 @@
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:20<11:03,  3.44s/it]  3%|▎         | 6/199 [00:22<12:17,  3.82s/it]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:02<01:26,  2.23it/s]  3%|▎         | 6/199 [00:04<02:12,  1.46it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:02<01:29,  2.16it/s]  3%|▎         | 6/199 [00:04<02:16,  1.41it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:02<01:33,  2.07it/s]  3%|▎         | 6/199 [00:04<02:26,  1.32it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:37,  1.98it/s]  3%|▎         | 6/199 [00:04<02:28,  1.30it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:39,  1.94it/s]  3%|▎         | 6/199 [00:04<02:31,  1.27it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:43,  1.87it/s]  3%|▎         | 6/199 [00:04<02:37,  1.22it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:47,  1.80it/s]  3%|▎         | 6/199 [00:05<02:43,  1.18it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:49,  1.77it/s]  3%|▎         | 6/199 [00:05<02:47,  1.15it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:52,  1.71it/s]  3%|▎         | 6/199 [00:05<02:52,  1.12it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:55,  1.67it/s]  3%|▎         | 6/199 [00:05<02:56,  1.09it/s]
+/home/joberant/NLP_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  0%|          | 0/199 [00:00<?, ?it/s]  3%|▎         | 6/199 [00:03<01:59,  1.61it/s]  3%|▎         | 6/199 [00:05<03:03,  1.05it/s]

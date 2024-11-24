@@ -1,0 +1,20 @@
+path:
+- data.csv
+sae_id:
+- blocks.0.hook_z
+- blocks.1.hook_z
+- blocks.2.hook_z
+- blocks.3.hook_z
+- blocks.4.hook_z
+- blocks.5.hook_z
+- blocks.6.hook_z
+- blocks.7.hook_z
+- blocks.8.hook_z
+- blocks.9.hook_z
+- blocks.10.hook_z
+- blocks.11.hook_z
+
+model:
+- release: gemma-scope-2b-pt-res-canonical
+  index: v4_pileval_gpt2
+  model_name: gpt2-small

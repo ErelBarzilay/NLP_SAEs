@@ -1,0 +1,275 @@
+gpt2-small-res-jb:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-hook-z-kk:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-mlp-tm:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-res-jb-feature-splitting:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-resid-post-v5-32k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-resid-post-v5-128k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gemma-2b-res-jb:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-2b-it-res-jb:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+mistral-7b-res-wg:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gpt2-small-resid-mid-v5-32k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-resid-mid-v5-128k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-mlp-out-v5-32k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-mlp-out-v5-128k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-attn-out-v5-32k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-attn-out-v5-128k:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gemma-scope-2b-pt-res:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-2b-pt-res-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-2b-pt-mlp:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-2b-pt-mlp-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-2b-pt-att:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-2b-pt-att-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-pt-res:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-pt-res-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-pt-att:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-pt-att-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-pt-mlp:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-pt-mlp-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-it-res:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-9b-it-res-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-27b-pt-res:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gemma-scope-27b-pt-res-canonical:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+pythia-70m-deduped-res-sm:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+pythia-70m-deduped-mlp-sm:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+pythia-70m-deduped-att-sm:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+gpt2-small-res_sll-ajt:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-res_slefr-ajt:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-res_scl-ajt:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-res_sle-ajt:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-res_sce-ajt:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+gpt2-small-res_scefr-ajt:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_gpt2
+sae_bench_gemma-2-2b_sweep_standard_ctx128_ef2_0824:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+sae_bench_gemma-2-2b_sweep_standard_ctx128_ef8_0824:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+sae_bench_gemma-2-2b_sweep_topk_ctx128_ef2_0824:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+sae_bench_gemma-2-2b_sweep_topk_ctx128_ef8_0824:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+sae_bench_pythia70m_sweep_gated_ctx128_0730:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+sae_bench_pythia70m_sweep_panneal_ctx128_0730:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+sae_bench_pythia70m_sweep_standard_ctx128_0712:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+sae_bench_pythia70m_sweep_topk_ctx128_0730:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama
+    - v4_pileval_gpt2
+llama-3-8b-it-res-jh:
+  path:
+    - data.csv
+  index:
+    - v4_pileval_llama

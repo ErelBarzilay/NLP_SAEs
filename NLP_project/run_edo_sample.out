@@ -1,0 +1,329 @@
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /a/home/cc/students/math/edo/.cache/huggingface/token
+Login successful
+device:  cuda
+-------- New Model ----------
+data.csv
+blocks.0.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 0.v4_pileval_gpt2_blocks.0.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 387.38 MiB is free. Including non-PyTorch memory, this process has 78.77 GiB memory in use. Of the allocated memory 76.72 GiB is allocated by PyTorch, and 664.94 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 387.38 MiB is free. Including non-PyTorch memory, this process has 78.77 GiB memory in use. Of the allocated memory 76.72 GiB is allocated by PyTorch, and 664.94 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.1.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 1.v4_pileval_gpt2_blocks.1.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 387.38 MiB is free. Including non-PyTorch memory, this process has 78.77 GiB memory in use. Of the allocated memory 73.52 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 387.38 MiB is free. Including non-PyTorch memory, this process has 78.77 GiB memory in use. Of the allocated memory 73.52 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.2.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 2.v4_pileval_gpt2_blocks.2.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 771.38 MiB is free. Including non-PyTorch memory, this process has 78.40 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 4.23 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 771.38 MiB is free. Including non-PyTorch memory, this process has 78.40 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 4.23 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.3.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 3.v4_pileval_gpt2_blocks.3.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 771.38 MiB is free. Including non-PyTorch memory, this process has 78.40 GiB memory in use. Of the allocated memory 76.72 GiB is allocated by PyTorch, and 280.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 771.38 MiB is free. Including non-PyTorch memory, this process has 78.40 GiB memory in use. Of the allocated memory 76.72 GiB is allocated by PyTorch, and 280.31 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.4.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 4.v4_pileval_gpt2_blocks.4.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.5.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 5.v4_pileval_gpt2_blocks.5.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.6.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 6.v4_pileval_gpt2_blocks.6.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 73.52 GiB is allocated by PyTorch, and 3.10 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 73.52 GiB is allocated by PyTorch, and 3.10 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.7.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 7.v4_pileval_gpt2_blocks.7.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.8.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 8.v4_pileval_gpt2_blocks.8.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.9.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 9.v4_pileval_gpt2_blocks.9.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.10.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 10.v4_pileval_gpt2_blocks.10.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+-------- New Model ----------
+data.csv
+blocks.11.hook_resid_post
+gpt2-small
+v4_pileval_gpt2
+Loaded pretrained model gpt2-small into HookedTransformer
+cuda
+test passed
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+skipping empty df
+Failed on 11.v4_pileval_gpt2_blocks.11.hook_resid_post_gpt2-small-resid-post-v5-128k
+CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 269, in main
+    data, rep, post, pre = get_repr_val_out(model_name, release, sae_id, index, path)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/NLP_project_SAEs/source/get_sae_repr_and_loss.py", line 111, in get_repr_val_out
+    feature_acts = sae.encode(cache[sae.cfg.hook_name])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/vol/joberant_nobck/data/NLP_368307701_2324b/erelbarzilay/conda_3/envs/new_env/lib/python3.12/site-packages/sae_lens/sae.py", line 548, in encode_standard
+    hidden_pre = self.hook_sae_acts_pre(sae_in @ self.W_enc + self.b_enc)
+                                        ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 3.91 GiB. GPU 0 has a total capacity of 79.15 GiB of which 1.13 GiB is free. Including non-PyTorch memory, this process has 78.02 GiB memory in use. Of the allocated memory 72.77 GiB is allocated by PyTorch, and 3.85 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+

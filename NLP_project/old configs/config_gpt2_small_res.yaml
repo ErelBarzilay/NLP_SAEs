@@ -1,0 +1,22 @@
+path:
+- data.csv
+sae_id:
+- blocks.0.hook_resid_pre
+- blocks.1.hook_resid_pre
+- blocks.2.hook_resid_pre
+- blocks.3.hook_resid_pre
+- blocks.4.hook_resid_pre
+- blocks.5.hook_resid_pre
+- blocks.6.hook_resid_pre
+- blocks.7.hook_resid_pre
+- blocks.8.hook_resid_pre
+- blocks.9.hook_resid_pre
+- blocks.10.hook_resid_pre
+- blocks.11.hook_resid_pre
+- blocks.11.hook_resid_post
+
+
+model:
+- release: gpt2-small-res-jb
+  index: v4_pileval_gpt2
+  model_name: gpt2-small
