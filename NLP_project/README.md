@@ -12,3 +12,4 @@ matplotlib
 mpld3
 tqdm
 datasets
+json
