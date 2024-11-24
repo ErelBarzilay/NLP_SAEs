@@ -35,7 +35,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 # device = "cpu"
 
 ## why doesnt this work?
-login("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")
+login(TOKEN)
 print("device: ", device)
 max_token_len = 200
 def split_by_len(df):
